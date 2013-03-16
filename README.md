@@ -2,8 +2,10 @@ Projector Mode
 ==============
 
 A basic vim plugin for those who like to share code on projectors once in a while.
-Increases the font size and colorscheme to something easier to read, then toggles it back again.
-Especially useful for people who like to work in dark colorschemes but have brightly lit offices!
+
+Toggles between your initial colorscheme and an alternative one, which should be high-contrast.
+It also toggles the font size; useful for people who like to work in dark colorschemes but have
+brightly lit offices!
 
 Installation
 ------------
