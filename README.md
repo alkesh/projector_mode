@@ -8,21 +8,18 @@ Especially useful for people who like to work in dark colorschemes but have brig
 Installation
 ------------
 1. Clone this project into your pathogen bundle directory:
-
-```
+```bash
 git clone git://github.com/AdamWhittingham/projector_mode.vim ~/.vim/bundle/
 ```
 
 2. Define the following in your .vimrc, substituting your colorschemes of choice:
-
-```
+```viml
 let g:default_colorscheme = 'darkermate'  
 let g:projector_colorscheme = 'mac-classic'  
 ```
 
 3. (Optional) Bind a key to ToggleProjectorMode in your .vimrc. For example, ``<leader>p``:
-
-```
+```viml
 noremap <silent> <leader>p :ToggleProjectorMode<CR>
 ```
 
